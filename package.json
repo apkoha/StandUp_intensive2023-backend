@@ -1,0 +1,21 @@
+{
+  "name": "api_stand-up",
+  "version": "1.0.0",
+  "description": "api для сервиса регистрации на stand up",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "Konstantin Rubenkov",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+
+//правки Bonus видео 3 время 3:00
