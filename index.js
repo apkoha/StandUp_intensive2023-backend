@@ -1,7 +1,7 @@
 import http from "node:http";
 import fs from "node:fs/promises";
 import { sendError } from "./modules/send.js";
-import { checkFileExist, createFileIfNotExist } from "./modules/checkFile.js";
+import { checkFileExist, createFileIfNotExist } from "./modules/checkfile.js";
 import { handleComediansRequest } from "./modules/handleComediansRequest.js";
 import { handleAddClient } from "./modules/handleAddClient.js";
 import { handleClientsRequest } from "./modules/handleClientsRequest.js";
